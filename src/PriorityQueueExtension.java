@@ -40,7 +40,7 @@ public class PriorityQueueExtension extends org.nlogo.api.DefaultClassManager
 	    throw new ExtensionException("cannot yet read pq");
 	}
 
-	// pq:new
+	// pq:new - create a new priority queue
 	public static class
         New extends PQReporter
 	{
